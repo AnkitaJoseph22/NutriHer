@@ -1,0 +1,28 @@
+# Git & cache
+.git
+.gitignore
+.pytest_cache
+__pycache__
+*.pyc
+*.pyo
+
+# Datasets and training artifacts (not needed for inference)
+dataset/
+models/
+outputs/
+results/
+training/train.csv
+training/test.csv
+training/val.csv
+checkpoints/latest_checkpoint.pth
+
+# Frontend (separated)
+nutriher-frontend/
+node_modules/
+dist/
+
+# Local system files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
